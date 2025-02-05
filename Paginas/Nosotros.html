@@ -5,22 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Nosotros | Dogmatik</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <style>
+      body {
+        background-color: #e9e1c0;
+      }
+      .navbar {
+        background-color: #e6dcb5;
+      }
+      footer {
+        background-color: #3f1503;
+        color: #e6dcb5;
+      }
+      .container p {
+        color: #3f1503;
+      }
+      .container h2 {
+        color: #3f1503;
+      }
+    </style>
   </head>
-  <body style="background-color: #e9e1c0;">
+  <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg" style="background-color: #e6dcb5;">
+    <nav class="navbar navbar-expand-lg">
       <div class="container-fluid">
-        <img src="../Imagenes/1-removebg-preview.png" style="height: 80px;">
+        <img src="../Imagenes/1-removebg-preview.png" alt="Logo" style="height: 80px;">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
+              <a class="nav-link" href="../index.html">Inicio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="Conocenos.html">Contactanos</a>
+              <a class="nav-link" href="Conocenos.html">Contáctanos</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="Productos.html">Productos</a> 
@@ -34,17 +52,17 @@
     </nav>
 
     <!-- Sección Informativa -->
-    <div class="container my-3" style="color: #3f1503;">
+    <div class="container my-3">
       <!-- Quiénes Somos -->
-      <div class="mb-5">
+      <section class="mb-5">
         <h2 class="display-4 fst-italic text-center">¿Quiénes Somos?</h2>
         <p class="fst-italic text-center">
           Somos una cafetería comprometida con ofrecer experiencias únicas a nuestros clientes. Seleccionamos los mejores granos de café, asegurando calidad y sostenibilidad en cada taza. Creamos un espacio cálido donde relajarse, socializar y disfrutar se convierte en un arte.
         </p>
-      </div>
+      </section>
 
       <!-- Nuestros Objetivos -->
-      <div class="mb-3">
+      <section class="mb-3">
         <h2 class="display-4 fst-italic text-center">Nuestros Objetivos</h2>
         <ul class="list-unstyled">
           <li><i class="bi bi-check-circle text-success"></i> Garantizar productos de la más alta calidad.</li>
@@ -52,10 +70,10 @@
           <li><i class="bi bi-check-circle text-success"></i> Crear un ambiente donde cada cliente se sienta especial.</li>
           <li><i class="bi bi-check-circle text-success"></i> Contribuir al desarrollo de nuestra comunidad.</li>
         </ul>
-      </div>
+      </section>
 
       <!-- Nuestras Metas -->
-      <div>
+      <section>
         <h2 class="display-3 fst-italic text-center">Nuestras Metas</h2>
         <p>
           Nos proponemos consolidarnos como líderes en el sector de cafeterías ofreciendo calidad excepcional y contribuyendo al bienestar social y ambiental. Trabajamos para:
@@ -66,11 +84,11 @@
           <li><i class="bi bi-star-fill text-warning"></i> Reducir nuestro impacto ambiental mediante el uso de materiales biodegradables y reciclables.</li>
           <li><i class="bi bi-star-fill text-warning"></i> Organizar eventos comunitarios que celebren la cultura del café y fortalezcan la conexión con nuestros clientes.</li>
         </ul>
-      </div>
+      </section>
     </div>
 
     <!-- Footer -->
-    <footer class="text-white text-center py-3" style="background-color: #3f1503; color: #e6dcb5;">
+    <footer class="text-white text-center py-3">
       <div class="container">
         <p class="mb-0">&copy; 2025 Dogmatik Cafetería.</p>
         <small>Nos encontramos en <b>Blv. Colón entre Francisco San Julia</b>. Llámanos al <b>8745-1198-722</b>.</small>
